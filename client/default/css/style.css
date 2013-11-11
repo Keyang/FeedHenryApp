@@ -1,0 +1,98 @@
+html, body {
+  -webkit-font-smoothing: antialiased;
+  font-weight: lighter;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+/*#homePage ul {
+  margin:0;
+  padding:0;
+}
+#homePage ul li {
+  
+  margin-right: 12px;
+  margin-bottom:10px;
+  float: left;
+  list-style: none;
+  text-align: center;
+  padding: 0.4em 1em;
+  border-radius: 8px;
+  border: 0.125em solid #0067C2;
+  background-color: #eee;
+  -webkit-box-shadow: 1px 1px 5px; 
+  
+}
+#homePage ul li .home-icon{
+   
+}
+
+
+#homePage ul li:hover {
+  background-color: #ccc;
+  -webkit-box-shadow: 0px -1px 5px;
+}
+
+#homePage ul li a {
+  color: #0167B9;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px;
+}*/
+
+/**
+ * Header
+ */
+.ui-header {
+  background: #0167b9;
+  background-repeat: repeat-x;
+  background-size: 100%;
+  border-bottom: 0.2em solid black;
+}
+.ui-header h1 {
+  font-size: 1.25em !important;
+  text-transform: uppercase;
+}
+.ui-header .img-header {
+  margin: 0 inherit !important;
+}
+.ui-header img {
+  margin: 0 inherit;
+}
+
+/**
+ * Back button
+ */
+[data-rel="back"].ui-btn, [data-rel="back"].ui-btn {
+  background-image: linear-gradient( #0562AC, #123C5E);
+  background-image: -webkit-gradient(linear, left top, left bottom, from( #0562AC ), to( #123C5E ));
+  background-image: -webkit-linear-gradient( #0562AC, #123C5E )
+}
+
+/**
+ * Custom icons
+ */
+.ui-icon-about {
+  background-image: url("../img/about.png");
+  background-size: 18px;
+}
+.ui-icon-video {
+  background-image: url("../img/video.png");
+  background-size: 18px;
+}
+.ui-icon-home {
+  background-image: url("../img/home.png");
+  background-size: 18px;
+}
+.ui-icon-news {
+  background-image: url("../img/news.png");
+  background-size: 18px;
+}
+
+.home-icon {
+  margin:0 auto;
+  width: 40px;
+  height: 40px;
+  background: #005EB0;
+}
+.home-btn {
+  display: inline-block;
+}

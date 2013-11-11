@@ -1,0 +1,41 @@
+
+<title>FeedHenry</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<!-- Stylesheet -->
+<link rel="stylesheet" href="css/jquery.mobile-1.2.1.min.css"/>
+<link href="css/style.css" rel="stylesheet" />
+<link href="css/video.css" rel="stylesheet" />
+
+<!-- Libraries -->
+<script src="js/lib/cms.js"></script>
+<script src="js/lib/jquery-1.8.3.min.js"></script>
+<script src="js/lib/jquery.mobile-1.2.1.min.js"></script>
+<!-- App structure -->
+<script src="app/app.js"></script>
+<script src="app/ui-components/homepage.js"></script>
+<script src="app/ui-components/videopage.js"></script>
+<script src="app/view.js"></script>
+
+
+<script type="text/javascript">
+    $fh.ready({}, function(){
+      $(function(){
+            app.init();
+        });
+    })
+</script>
+
+<!-- App Container -->
+<div id="container">
+  <!-- Home Page -->
+  <div data-role="page" id="homePage">
+    <div data-role="header" data-position="fixed" data-tap-toggle="false">
+      <h1 >FeedHenry</h1>
+    </div>
+
+
+    <div data-role="content"></div>
+  </div>
+
+</div>
+
