@@ -1,4 +1,5 @@
-cms.ui.registerType('videos_1383829400928', function(element, cb) {
+(function(){
+    function _parser(element, cb) {
     var id = element._id;
     var name = element.name;
     cms.data.getContent(id, function(err, fullEle) {
@@ -30,4 +31,8 @@ cms.ui.registerType('videos_1383829400928', function(element, cb) {
         template=template.replace("{content}",contentHtml);
         cb(null,template);
     });
-});
+}
+cms.ui.registerType('feedhenryvideos_1384169840405',_parser);
+cms.ui.registerType('videotutorial_1384172291771',_parser);
+})();
+

@@ -42,7 +42,7 @@ html, body {
  * Header
  */
 .ui-header {
-  background: #0167b9;
+  background: black;
   background-repeat: repeat-x;
   background-size: 100%;
   border-bottom: 0.2em solid black;
